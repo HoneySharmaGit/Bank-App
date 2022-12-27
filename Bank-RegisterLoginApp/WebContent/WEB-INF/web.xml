@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>Bank-RegisterLoginApp</display-name>
+  <welcome-file-list>
+    <welcome-file>Homepage.html</welcome-file>
+  </welcome-file-list>
+  <servlet-mapping>
+    <servlet-name>RegisterPage</servlet-name>
+    <url-pattern>/rp</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RegisterPage</servlet-name>
+    <servlet-class>org.pentagonspace.homeApp.RegisterPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginPage</servlet-name>
+    <url-pattern>/lp</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LoginPage</servlet-name>
+    <servlet-class>org.pentagonspace.homeApp.LoginPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddMoneyPage</servlet-name>
+    <url-pattern>/ap</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddMoneyPage</servlet-name>
+    <servlet-class>org.pentagonspace.homeApp.AddMoneyPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WithdrawMoneyPage</servlet-name>
+    <url-pattern>/wp</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>WithdrawMoneyPage</servlet-name>
+    <servlet-class>org.pentagonspace.homeApp.WithdrawMoneyPage</servlet-class>
+  </servlet>
+</web-app>

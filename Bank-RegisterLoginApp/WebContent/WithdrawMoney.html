@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+       	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Add Money Page</title>
+    <style>
+        body {
+            background-image: url("coding-image.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        .btn-primary {
+            background-color: blue;
+            width: 392px;
+            font-size: 16px;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0px;
+            height: 20px;
+            width: 100%;
+            background-color: grey;
+        }
+
+        div.main {
+            border: solid 1px grey;
+            border-radius: 5px;
+            margin: 54px;
+            height: 465px;
+            width: 935px;
+            background-color: #f0f0eb;
+            padding: 1.7%;
+            box-shadow: 10px 10px 10px -9px black;
+        }
+    </style>
+</head>
+<body>
+<center>
+        <form action="wp" method="get">
+            <div class="main">
+                <h4>Withdraw Money</h4>
+                <table>
+                    <tr>
+                        <td><label for="em"><h1>Email:</h1></label></td>
+                        <td><input class="form-control" type="text" name="em" required></td>
+                        <td><i class="glyphicon glyphicon-envelope"></i></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pw"><h1>Password:</h1></label></td>
+                        <td><input class="form-control" type="text" name="pw" required></td>
+                        <td><i class="glyphicon glyphicon-lock"></i></td>
+                    </tr>
+                    <tr>
+                        <td><label for="am"><h1>Amount:</h1></label></td>
+                        <td><input class="form-control" type="number" name="am" required></td>
+                        <td><big><h4>₹</h4></big></td>
+                    </tr>
+                    <tr>
+                        <td><label for="atm"><h1>ATM:</h1></label></td>
+                        <td><input class="form-control" type="number" name="atm" required></td>
+                        <td><i class="glyphicon glyphicon-lock"></i></td>
+                    </tr>
+                </table>
+                <button type="submit" class="btn btn-primary">Withdraw</button>
+                <br><br>
+                <a href="Homepage.html">Homepage</a> &nbsp &nbsp <a href="Register.html">Register</a> &nbsp &nbsp <a href="Login.html">Login</a>
+            </div>
+        </form>
+        <div class="footer">
+            <p>&copycopyright-2022 all right reserved.</p>
+        </div>
+    </center>
+</body>
+</html>
